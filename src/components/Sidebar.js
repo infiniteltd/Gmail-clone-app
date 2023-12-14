@@ -18,7 +18,7 @@ function Sidebar() {
             <SidebarOption Icon={ExpandMore} title='More' number={54} />
 
             <div className="sidebar__footer">
-                <div className="sidebar">
+                <div className="sidebar__footerIcons">
                     <IconButton>
                         <Person />
                     </IconButton>
