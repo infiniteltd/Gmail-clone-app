@@ -3,6 +3,7 @@ import { Checkbox, IconButton } from '@mui/material';
 import { ArrowDropDown, Refresh, MoreVert, ChevronLeft, ChevronRight, KeyboardHide, Inbox, LocalOffer, People, LocalOfferOutlined, PeopleOutlined } from '@mui/icons-material';
 import './EmailList.css';
 import Section from '../utilities/Section.js';
+import EmailRow from '../utilities/EmailRow.js';
 
 function EmailList() {
     return (
@@ -39,6 +40,20 @@ function EmailList() {
                 <Section Icon={LocalOfferOutlined} title='Promotions' color='#C72328' />
                 <Section Icon={PeopleOutlined} title='Social' color='
 #1e922a' />
+            </div>
+
+            <div className="emailList__list">
+                <EmailRow
+                    title='Twitch'
+                    subject='Hey fellow streamer!!!'
+                    description='This is a test'
+                    time='10.05pm' />
+
+                <EmailRow
+                    title='Twitch'
+                    subject='Hey fellow streamer!!!'
+                    description='This is a test'
+                    time='10.05pm' />
             </div>
         </div>
     );
