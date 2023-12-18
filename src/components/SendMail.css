@@ -19,12 +19,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: grey;
+  background-color: #dce6f8;
 }
 
 .sendMail__header > h3 {
-  color: whitesmoke;
-  font-size: 13px;
+  color: black;
+  font-size: 15px;
 }
 
 .sendMail__send {
@@ -32,11 +32,12 @@
   text-transform: capitalize !important;
   margin: 15px !important;
   color: white !important;
+  border-radius: 4px 0 0 4px !important;
 }
 
 .sendMail__close {
-  margin-bottom: -10px;
-  color: whitesmoke !important;
+  margin-bottom: -8px;
+  color: black !important;
   cursor: pointer;
 }
 
@@ -44,6 +45,13 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+}
+
+.sendMail__error {
+  background-color: white;
+  color: red;
+  text-align: right;
+  padding: 2px;
 }
 
 .sendMail > form > input {
@@ -54,10 +62,51 @@
   outline: none;
 }
 
-.sendMail__options > .MuiSvgIcon-root {
-  color: whitesmoke !important;
+.sendMail__options {
+  display: flex;
+  object-fit: contain;
+  background-color: white;
+  border: none;
 }
 
 .sendMail__message {
+  overflow-wrap: break-word;
   flex: 1;
+}
+
+.sendMail__sendContainer {
+  display: flex;
+}
+
+.sendMail__arrowDown {
+  background-color: #3079ed !important;
+  font-size: 15px !important;
+  color: white !important;
+  padding: 10px;
+  margin-left: -1.5rem;
+  height: 16.5px !important;
+  width: 20px;
+  border-radius: 0 4px 4px 0 !important;
+}
+
+.sendMail__actions {
+  display: flex;
+  object-fit: contain;
+  font-size: 10px !important;
+  margin-left: -25px !important;
+  padding: 12px;
+}
+
+.sendMail__openFull {
+  margin-bottom: -6px !important;
+}
+
+.sendMail__textFormat {
+  margin-left: 5px !important;
+}
+
+.sendMail__mailDelete {
+  margin-left: 20px !important;
+  color: #646464 !important;
+  font-size: 20px !important;
 }

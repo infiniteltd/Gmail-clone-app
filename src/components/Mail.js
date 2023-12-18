@@ -68,7 +68,7 @@ function Mail() {
                     <h2>Subject</h2>
                     <LabelImportant className='mail__important' />
                     <p>Title</p>
-                    <p className='mail__time '>10.05pm</p>
+                    <p className='mail__time'>10.05pm</p>
                 </div>
 
                 <div className="mail__message">
