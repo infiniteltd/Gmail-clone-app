@@ -5,7 +5,7 @@ import { Button, IconButton } from '@mui/material';
 import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
 import { closeSendMessage } from '../features/mailSlice';
-import { collection, getDocs, addDoc, orderBy, query } from 'firebase/firestore';
+import { collection, addDoc } from 'firebase/firestore';
 import { db, serverTimestamp } from '../components/firebase';
 
 function SendMail() {
