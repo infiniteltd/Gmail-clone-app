@@ -18,5 +18,4 @@ const auth = getAuth(app);
 const provider = new GoogleAuthProvider(app);
 
 
-
 export { db, auth, provider, serverTimestamp };

@@ -19,8 +19,10 @@ function SendMail() {
             to: data.to,
             subject: data.subject,
             message: data.message,
-            timestamp: serverTimestamp
+            timestamp: serverTimestamp()
         });
+
+        dispatch(closeSendMessage());
     };
 
     const iconStyle = { color: '#646464', fontSize: '20' };
