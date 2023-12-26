@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, IconButton } from '@mui/material';
-import { AccessTime, CreateOutlined, ExpandMore, Inbox, LabelImportant, Send, Note, Star, Person, Duo, Phone, LabelImportantOutlined } from '@mui/icons-material';
+import { AccessTime, CreateOutlined, ExpandMore, Inbox, Send, Note, Star, Person, Duo, Phone, LabelImportantOutlined } from '@mui/icons-material';
 import './Sidebar.css';
 import SidebarOption from '../utilities/SidebarOption';
 import { useDispatch } from 'react-redux';

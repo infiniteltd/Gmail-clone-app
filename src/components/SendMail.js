@@ -76,9 +76,6 @@ function SendMail() {
                 <div className="sendMail__options">
                     <div className="sendMail__sendContainer">
                         <Button className='sendMail__send' type='submit'>Send</Button>
-                        <IconButton>
-                            <ArrowDropDownOutlined className='sendMail__arrowDown' />
-                        </IconButton>
 
                     </div>
                     <div className="sendMail__actions">

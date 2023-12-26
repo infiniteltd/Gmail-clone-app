@@ -11,7 +11,6 @@ function Login() {
     const dispatch = useDispatch();
 
     const loginHandler = () => {
-        console.log('auth:', auth);
         signInWithPopup(auth, provider)
             .then(({ user }) => {
                 dispatch(login({
